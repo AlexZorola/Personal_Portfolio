@@ -1,7 +1,6 @@
 import React from 'react';
 import { BsTwitter, BsInstagram } from 'react-icons/bs';
-import { FaFacebookF, FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom';
+import { FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
 
 
 const SocialMedia = () => (
