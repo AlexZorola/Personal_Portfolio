@@ -41,7 +41,7 @@ import twitch from '../assets/twitch.png';
 import gt from '../assets/GT.png';
 import waiting01 from '../assets/waiting01.png';
 
-export default {
+const used_images = {
   email,
   mobile,
   api,
@@ -82,3 +82,5 @@ export default {
   gt,
   waiting01,
 };
+
+export default used_images;
