@@ -38,7 +38,8 @@ import naruto from '../assets/naruto.png';
 import konosuba from '../assets/konosuba.png';
 import onepiece from '../assets/onepiece.png';
 import twitch from '../assets/twitch.png';
-import gt from '../assets/GT.png'
+import gt from '../assets/GT.png';
+import waiting01 from '../assets/waiting01.png';
 
 export default {
   email,
@@ -79,4 +80,5 @@ export default {
   onepiece,
   twitch,
   gt,
+  waiting01,
 };

@@ -30,7 +30,8 @@ const Work = () => {
 
       if (item === 'All') {
         setFilterWork(works);
-      } else {
+      } 
+      else {
         setFilterWork(works.filter((work) => work.tags.includes(item)));
       }
     }, 500);
@@ -41,7 +42,7 @@ const Work = () => {
       <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
 
       <div className="app__work-filter">
-        {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
+        {['Game Design', 'Web App', 'Mobile App', 'Python', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
