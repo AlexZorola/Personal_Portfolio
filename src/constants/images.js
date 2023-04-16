@@ -11,7 +11,6 @@ import javascript from '../assets/javascript.png';
 import node from '../assets/node.png';
 import python from '../assets/python.png';
 import react from '../assets/react.png';
-import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import sql from '../assets/sql.png';
 import unreal5 from '../assets/unreal5.png';
@@ -40,6 +39,7 @@ import onepiece from '../assets/onepiece.png';
 import twitch from '../assets/twitch.png';
 import gt from '../assets/GT.png';
 import waiting01 from '../assets/waiting01.png';
+import waiting02 from '../assets/waiting02.png';
 
 const used_images = {
   email,
@@ -55,7 +55,6 @@ const used_images = {
   node,
   python,
   react,
-  redux,
   sass,
   sql,
   unreal5,
@@ -81,6 +80,7 @@ const used_images = {
   twitch,
   gt,
   waiting01,
+  waiting02,
 };
 
 export default used_images;
